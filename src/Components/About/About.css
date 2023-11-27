@@ -1,0 +1,95 @@
+*{
+    color: white;
+}
+
+
+.title{
+    margin-left: 550px;
+    margin-top: 220px;
+}
+
+.text{
+   text-align: justify;
+    width: 500px;
+    margin-left: 650px;
+    margin-top: 60px;
+}
+
+.image > img {
+    width: 300px;
+    height: 300px;
+    margin-left: -90px;
+    margin-top: -90px;
+    border-radius: 20px;
+}
+
+.image {
+    border: 5px solid white;
+    width: 300px;
+    height: 270px;
+    margin-top: -350px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.button > ul{
+    display: flex;
+    list-style: none;
+}
+
+.button > ul > li > a{
+    text-decoration: none;
+    /* color: black; */
+    font-size: 20px;
+    font-weight: bold;
+    /* color: white; */
+}
+
+.button > ul > li{
+margin-left: 20px;
+}
+
+.button > ul > .hire > a {
+    color: black;
+}
+
+.hire > a{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.hire:hover{
+    transform: scale(1.1)
+
+}
+
+.cv {
+    /* background-color: white; */
+    border: 2px solid white;
+    padding: 10px;
+    width: 80px;
+    /* height: 55px; */
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.button > ul > .cv > a {
+    color: white;
+}
+
+
+ .cv:hover{
+    transform: scale(1.1)
+}
+
+
+.button > ul > li {
+    margin-left: 90px;
+}
+
+.button > ul{
+    margin-top: 120px;
+    margin-left: 650px;
+}
