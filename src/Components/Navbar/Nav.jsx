@@ -2,7 +2,7 @@ import React from "react";
 import "./Nav.css";
 import Home from "../Home/Home";
 import About from '../About/About'
-import Portfolio from '../Portfolio/Portfolio'
+import Blog from '../Blog/Blog'
 import Service from '../Services/Service'
 import Skill from '../Skills/Skill'
 import Contact from '../Contact/Contact'
@@ -44,8 +44,8 @@ const Nav = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" id="code1" href="#portfolio">
-                  Portfolio
+                <a className="nav-link active" id="code1" href="#Mydesign">
+                  Blog
                 </a>
               </li>
               <li className="nav-item">
@@ -76,8 +76,8 @@ const Nav = () => {
         <About  className="contact"/>
      </section>
 
-     <section id="portfolio">
-        <Portfolio />
+     <section id="MyBlog">
+        <Blog />
      </section>
 
      <section id="Service">

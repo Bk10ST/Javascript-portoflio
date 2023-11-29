@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Pic from './crop.jpg'
+import Pic from './pp.jpg'
 import PDF from './Sandesh Cv.pdf'
 
 const About = ({contact}) => {
