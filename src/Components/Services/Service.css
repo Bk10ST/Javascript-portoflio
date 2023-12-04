@@ -1,3 +1,104 @@
 *{
     color: white;
 }
+
+
+.REACTBOX{
+    background-color: black;
+    width: 400px;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    border: 5px solid white;
+    margin-top: 30px;
+}
+
+.REACTBOX > h3 {
+color: white;
+}
+
+.reactPara{
+    color: white;
+}
+
+.REACTBOX > .reactPara{
+    color: white;
+}
+
+.REACTBOX > ul > li {
+    color: white;
+}
+
+
+.REACTBOX:hover {
+
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+
+.FIGMABOX{
+    background-color: black;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 730px;
+    margin-top: -250px;
+    border: 5px solid white;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+.FIGMABOX > h3 {
+    color: white;
+}
+
+.FIGMABOX > p {
+    color: white;
+}
+
+
+
+.FIGMABOX:hover {
+
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+
+
+.CVBOX{
+    background-color: black;
+    padding: 20px;
+    width: 900px;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 140px;
+    border: 5px solid white;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+.CVBOX > h3 {
+    color: white;
+}
+
+.CVBOX > p {
+    color: white;
+}
+
+
+
+.CVBOX:hover {
+
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}

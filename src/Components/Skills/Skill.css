@@ -1,3 +1,53 @@
 *{
     color: white;
 }
+
+.reactskill{
+    display: flex;
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+.card:hover{
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+#codee{
+    margin-left: -13px;
+    transition: transform 0.5s;
+}
+
+.skill{
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+
+#jas{
+
+    transition: transform 0.5s;
+}
+
+#jas:hover{
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+#httml{
+
+    transition: transform 0.5s;
+}
+
+#Csss{
+
+    transition: transform 0.5s;
+}
+#figm{
+ 
+    transition: transform 0.5s;
+}
