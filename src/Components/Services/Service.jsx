@@ -23,7 +23,7 @@ const Service = () => {
       <div className="FIGMABOX">
         <h3>2. Figma Designing</h3>
         <p>I can help you build a UI / UX design using figma. 
-          make your design more visually appling and give your user
+          Make your design more visually appling and give your user
           better user experience.
            </p>
            <img src={pic1} alt="" />

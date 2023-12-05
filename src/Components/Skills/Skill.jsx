@@ -128,7 +128,7 @@ const Skill = () => {
             }}
           />
           <motion.div className="card-body">
-            <motion.h5 className="card-title">React title</motion.h5>
+            <motion.h5 className="card-title">React</motion.h5>
             <motion.p className="card-text">
               I can create frontend of a website using React{" "}
             </motion.p>
@@ -162,7 +162,7 @@ const Skill = () => {
             }}
           />
           <motion.div className="card-body">
-            <motion.h5 className="card-title">Javascript title</motion.h5>
+            <motion.h5 className="card-title">Javascript</motion.h5>
             <motion.p className="card-text">
               I am proficient in Javascript{" "}
             </motion.p>

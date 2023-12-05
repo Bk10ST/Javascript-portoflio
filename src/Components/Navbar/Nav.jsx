@@ -6,14 +6,17 @@ import Blog from '../Blog/Blog'
 import Service from '../Services/Service'
 import Skill from '../Skills/Skill'
 import Contact from '../Contact/Contact'
+import logo from './logo.png'
 
 const Nav = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg  fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            <img src={logo} style={{
+              width: "35%"
+            }} alt="" />
           </a>
           <button
             className="navbar-toggler"
@@ -40,11 +43,11 @@ const Nav = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link active" id="code1" href="#about">
-                  About Me
+                  About 
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" id="code1" href="#Mydesign">
+                <a className="nav-link active" id="code1" href="#MyBlog">
                   Blog
                 </a>
               </li>
